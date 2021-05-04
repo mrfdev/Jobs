@@ -8,17 +8,21 @@ Keeping your server engine and plugins current can help resolve a lot of potenti
 
 ```
 ,-- Zrips CMI 8.8.x.x with CMI Economy enabled from SpigotMC.
+|   '- https://www.spigotmc.org/resources/3742/
+|
 |-- Zrips Compiled Vault 1.7.3 from zrips.net
+|   '- http://www.zrips.net/wp-content/uploads/2020/07/Vault-1.7.3.jar
+|
 |-- Zrips Jobs-Reborn 4.17.1 from SpigotMC.
+|   '- https://www.spigotmc.org/resources/4216/
+| 
 |-- LuckPerms 5.3.3 from SpigotMC.
-'-- Spigot 1.16.5 (and Paper 1.16.5 on some other servers).
+|   '- https://www.spigotmc.org/resources/28140/
+|
+|-- Spigot 1.16.5 (and Paper 1.16.5 on some other servers).
+|   |- https://hub.spigotmc.org/jenkins/job/BuildTools/
+|   '- https://papermc.io/downloads
 ```
-Links to the jar files are listed in this pinned msg on Zrips Discord:
-https://ptb.discord.com/channels/452792793631555594/526399863290724373/654745691217723459
-
-Paper can be downloaded from here: https://papermc.io/downloads
-Spigots Buildtools is listed here: https://hub.spigotmc.org/jenkins/job/BuildTools/
-Luckperms permission manager here: https://www.spigotmc.org/resources/28140/
 
 ## Okay, checklist, let's go and double check your setup
 
@@ -79,7 +83,10 @@ jobs.command.top
 jobs.use
 jobs.max.3
 jobs.join.*
+jobs.world.worldName
 ```
+_(`worldName` is your world where the jobs should pay)_
+
 If you use CMI and LuckPerms you can actually use their features like /cmi haspermission, or /lp verbose, to figure out if a command is set properly. Check their documentation for more information.
 
 # In-game double checking
@@ -107,6 +114,10 @@ If you're having issues, maybe make sure that pay creative is at least set to fa
 
 Make sure you test with a /stop, set economy async from true to false, and start the server, and try again. Who knows, maybe it magically gets fixed for you particular server setup. 
 
+If the `Economy section -> PaymentMethods part-> Money setting` is enabled, you can get money from jobs _if_ it is configured per /jobs/ file.
+
+There is also a feature with the setting `economy-batch-delay`, you can temporary disable this to make sure you get instantly paid, you might not notice your bath-payment for a bit and _think_ it's not working.
+
 # Enabled Limits perhaps?
 
 Let's check if you perhaps have limits enabled and tested enough that it goes wrong, or at least has hit a limit. Turn it off to dobule check (generalConfig.yml):
@@ -124,4 +135,8 @@ Let's check if you perhaps have limits enabled and tested enough that it goes wr
 Yeah, that's possible, so, go back to step 1 and double check. Gather up the info. 
 
 Share with the discord chat channel the info you've gathered, either in a pastebin link or by properly pasting it. This includes the outputs of all those ver things, the config file, the expected behavior, any startup error msgs, or misisng info that you expected to find, or what happens or doesn't happen in game and any console errors if any that happen. The more complete your info, the easier it can be for others to figure out what's up. 
+
+# Finally
+
+One of the Jobs developers also has a pinned message on Discord, it might be worth reading as well: https://ptb.discord.com/channels/452792793631555594/526402919826849804/688267075818750053
 
