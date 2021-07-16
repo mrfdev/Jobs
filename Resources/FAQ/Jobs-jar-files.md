@@ -7,19 +7,19 @@ Before you start making changes I will assume you have backed up your server.
 Keeping your server engine and plugins current can help resolve a lot of potential issues. Does it work with .. questions, I have no idea besides "probably", because this is the setup that I use and works for me:
 
 ```
-,-- Zrips CMI 8.8.x.x with CMI Economy enabled from SpigotMC.
+,-- Zrips CMI 9.x with CMI Economy enabled from SpigotMC.
 |   '- https://www.spigotmc.org/resources/3742/
 |
 |-- Zrips Compiled Vault 1.7.3 from zrips.net
 |   '- http://www.zrips.net/wp-content/uploads/2020/07/Vault-1.7.3.jar
 |
-|-- Zrips Jobs-Reborn 4.17.1 from SpigotMC.
+|-- Zrips Jobs-Reborn 5.0.0.3 from SpigotMC.
 |   '- https://www.spigotmc.org/resources/4216/
 | 
-|-- LuckPerms 5.3.3 from SpigotMC.
+|-- LuckPerms 5.3.51 from SpigotMC.
 |   '- https://www.spigotmc.org/resources/28140/
 |
-|-- Spigot 1.16.5 (and Paper 1.16.5 on some other servers).
+|-- Spigot 1.17.1 (and Paper 1.17.1 on some other servers).
 |   |- https://hub.spigotmc.org/jenkins/job/BuildTools/
 |   '- https://papermc.io/downloads
 ```
@@ -80,7 +80,7 @@ mvn clean install -Dmaven.test.skip=true
 [INFO] BUILD SUCCESS
 
 # Note that THIS is the compiled JAR file you want to use on your server as a plugin:
-# /Users/whatever/.m2/repository/Jobs/jobs/4.17.1/jobs-4.17.1.jar
+# /Users/whatever/.m2/repository/Jobs/jobs/5.0.0.3/jobs-5.0.0.3.jar
 # You can now copy that target file to your minecraft server plugins/ directory.
 ```
 
