@@ -9,7 +9,11 @@ This page should help explain what I personally think is the way to run Jobs Reb
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Note ahead.
 
 - This is about Jobs 5 and Spigot or Paper server version 1.17.1 mainly, apply to 1.16.5 and other lower versions accordingly.
-- CMI version 9.x is recommended for Economy engine, but other things like EssentialsX economy work as well.
+- More info about differences between Jobs jar files: <https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-jar-files.md>
+
+- CMI version 9.x is recommended for Economy engine, but other things like EssentialsX economy work as well. 
+- More info about Jobs + Economy: <https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-economy.md>
+
 - CMI Lib version 1.0.2.13 is required.
 - Zrips' libraries and other resources are linked below.
 
@@ -24,7 +28,7 @@ This page should help explain what I personally think is the way to run Jobs Reb
 
 ### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Before we start to install and/or upgrade CMI 9
 
-- /stop your server. Do the backup thing, and make a test server.
+- `/stop` your server. Do the backup thing, and make a test server.
 
 - Go to SpigotMC and download Jobs if you haven't yet. And use BuildTools.jar from SpigotMC to build the latest version of Spigot 1.17.1 or download Paper 1.17.1 from their site.
 
@@ -102,6 +106,7 @@ These are for CMI 9.x:
 
 `CMI Library` Base Library (Required by CMI and Jobs)
 <https://www.spigotmc.org/resources/cmilib.87610/>
+More info about CMILIB <https://github.com/mrfdev/CMI/blob/master/Resources/FAQ/cmi-library.md>
 
 `Spigot website` This is where you can get buildtools and make a spigot 1.17.1 jar
 <https://hub.spigotmc.org/jenkins/job/BuildTools/>
@@ -109,4 +114,4 @@ These are for CMI 9.x:
 `Paper website` This is where you can get Paper's 1.17.1 jar
 <https://papermc.io/downloads>
 
-More information about Jobs: https://www.zrips.net/jobs/
+More information about Jobs: https://www.zrips.net/jobs/, here you can find info about permissions, chat titles, signs and other jobs features. 
