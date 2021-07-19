@@ -23,10 +23,10 @@ This page should help explain what I personally think is the way to run Jobs Reb
 
 ### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Test setup
 
-- Before you actually update your live server it's recommended to have a test instance you can try stuff out on. This way you can detect issues and concerns early and learn to address those. Without risking your live server. especially while CMI 9 is in beta, and Minecraft 1.17 is still unstable.
+- Before you actually update your live server it's recommended to have a test instance you can try stuff out on. This way you can detect issues and concerns early and learn to address those. Without risking your live server!
 - If this testing takes hours and days and you have new live data because players keep playing, obviously take the live server offline and backup again, before making the final changes.
 
-### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Before we start to install and/or upgrade CMI 9
+### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Before we start to install and/or upgrade Jobs 5
 
 - `/stop` your server. Do the backup thing, and make a test server.
 
@@ -58,9 +58,9 @@ If you are installing it for the first time, go to the Installing steps above an
 
 - Keep the existing `plugins/CMILib/` folder, do not delete it.
 
-- If you don't have the cmilib folder, don't worry, it will create it for you.
+- If you don't have the CMILib folder, don't worry, it will create it for you.
 
-- If you have the old CMI Lib version, don't worry, CMI will auto-upgrade it, and we will clean up after.
+- If you have the old CMILib version, don't worry, Jobs will auto-upgrade it, and we will clean up after.
 
 - Remove the old Jobs `.jar` you're using from the plugins/ directory. 
 
@@ -70,9 +70,9 @@ If you are installing it for the first time, go to the Installing steps above an
 
 - Keep an eye on the console, the `latest.log` will also have all the details. If something goes wrong, take note. And try to figure out what is up and try again.
 
-- When the server has started, Jobs will automatically download languages, CMI Lib and you're ready to **Finish** (see below)
+- When the server has started, Jobs will automatically download languages, CMILib and you're ready to **Finish** (see below)
 
-- If your plugins/ directory has the old CMI Lib `.jar` files, it is okay to remove them now. Keep the new .jar of course.
+- If your plugins/ directory has the old CMILib `.jar` files, it is okay to remove them now. Keep the new .jar of course.
 
 ### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Finishing up.
 
@@ -97,7 +97,6 @@ SpigotMC's Buildtools.jar can be found here <https://hub.spigotmc.org/jenkins/jo
 `Jobs Reborn v5` Jobs Reborn resource page
 <https://www.spigotmc.org/resources/jobs-reborn.4216/>
 
-These are for CMI 9.x:
 `CMI Vault` Economy-compile for best results
 <http://www.zrips.net/wp-content/uploads/2020/07/Vault-1.7.3.jar>
 
@@ -106,7 +105,7 @@ These are for CMI 9.x:
 
 `CMI Library` Base Library (Required by CMI and Jobs)
 <https://www.spigotmc.org/resources/cmilib.87610/>
-More info about CMILIB <https://github.com/mrfdev/CMI/blob/master/Resources/FAQ/cmi-library.md>
+More info about CMILib <https://github.com/mrfdev/CMI/blob/master/Resources/FAQ/cmi-library.md>
 
 `Spigot website` This is where you can get buildtools and make a spigot 1.17.1 jar
 <https://hub.spigotmc.org/jenkins/job/BuildTools/>
