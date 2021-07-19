@@ -14,7 +14,7 @@ This page should help explain what I personally think is the way to run Jobs Reb
 - CMI version 9.x is recommended for Economy engine, but other things like EssentialsX economy work as well. 
 - More info about Jobs + Economy: <https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-economy.md>
 
-- CMI Lib version 1.0.2.13 is required.
+- CMI Lib version 1.0.2.14 or newer is required.
 - Zrips' libraries and other resources are linked below.
 
 ### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Backup
