@@ -4,7 +4,14 @@ Zrips Discord @ https://discord.gg/dDMamN4
 
 This page should help explain what I personally think is the way to run Jobs Reborn version 5.x on Spigot-, and Paper 1.17.1 and below.
 
-[todo: img here]
+```
+------------------------------------------
+Jobs: 5.0.0.8 SqLite
+CMILib: 1.0.4.0
+Server: Paper(333) 1.17.1-R0.1-SNAPSHOT
+Economy: CMIEconomy Vault: 1.7.3-b
+------------------------------------------
+```
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Note ahead.
 
@@ -14,7 +21,7 @@ This page should help explain what I personally think is the way to run Jobs Reb
 - CMI version 9.x is recommended for Economy engine, but other things like EssentialsX economy work as well. 
 - More info about Jobs + Economy: <https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-economy.md>
 
-- CMI Lib version 1.0.3.9 or newer is required.
+- CMI Lib version 1.0.4.0 or newer is required.
 - Zrips' libraries and other resources are linked below.
 
 ### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Backup
@@ -54,9 +61,9 @@ If you already are running Jobs, you can skip this and go straight to Upgrading 
 
 If you are installing it for the first time, go to the Installing steps above and skip the upgrading steps.
 
-- Keep the existing `plugins/Jobs/` folder, do not delete it.
+- Keep the existing `~/plugins/Jobs/` folder, do not delete it.
 
-- Keep the existing `plugins/CMILib/` folder, do not delete it.
+- Keep the existing `~/plugins/CMILib/` folder, do not delete it.
 
 - If you don't have the CMILib folder, don't worry, it will create it for you.
 
