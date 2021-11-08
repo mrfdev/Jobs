@@ -1,4 +1,5 @@
 # Jobs
+
 Extra handy information, resources, FAQ, help, etc pages for the zrips jobs-reborn plugin
 
 ## Resources
@@ -14,5 +15,5 @@ The source code to Jobs-Reborn can be found here: <https://github.com/Zrips/Jobs
 
 ## Version 
 
-Github Jobs version 0.0.1, May 4th, 2021.
+Github Jobs version 0.0.2, November 8th, 2021.
 
