@@ -8,20 +8,20 @@ Keeping your server engine and plugins current can help resolve a lot of potenti
 
 ```
 ,-- Zrips CMI 9.x with CMI Economy enabled from SpigotMC.
-|   '- https://www.spigotmc.org/resources/3742/
+|    '- https://www.spigotmc.org/resources/3742/
 |
 |-- Zrips Compiled Vault 1.7.3 from zrips.net
-|   '- http://www.zrips.net/wp-content/uploads/2020/07/Vault-1.7.3.jar
+|    '- http://www.zrips.net/wp-content/uploads/2020/07/Vault-1.7.3.jar
 |
-|-- Zrips Jobs-Reborn 5.0.0.3 from SpigotMC.
-|   '- https://www.spigotmc.org/resources/4216/
+|-- Zrips Jobs-Reborn 5.0.0.9 from SpigotMC.
+|    '- https://www.spigotmc.org/resources/4216/
 | 
-|-- LuckPerms 5.3.51 from SpigotMC.
-|   '- https://www.spigotmc.org/resources/28140/
+|-- LuckPerms 5.3.75 from SpigotMC.
+|    '- https://www.spigotmc.org/resources/28140/
 |
-|-- Spigot 1.17.1 (and Paper 1.17.1 on some other servers).
-|   |- https://hub.spigotmc.org/jenkins/job/BuildTools/
-|   '- https://papermc.io/downloads
+`-- Spigot 1.17.1 (and Paper 1.17.1 on some other servers).
+     |- https://hub.spigotmc.org/jenkins/job/BuildTools/
+     '- https://papermc.io/downloads
 ```
 
 ## Okay, let's explain what's up
@@ -36,7 +36,7 @@ Server engine, version, related plugins, and their versions:
 Type the following in console and share the full output if you still have an issue with the economy.
 ```
 ver
-ver Jobs
+jobs version
 ver Vault
 ver LuckPerms
 cmi version
