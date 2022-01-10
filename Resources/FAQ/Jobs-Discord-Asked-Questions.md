@@ -145,4 +145,7 @@ Make sure you're not an operator or that you did not `*` wildcard your permissio
 
 The check permissions page. And make sure the setting is disabled in generalConfig.yml
 
+### How can I use short Jobs names (in chat, etc)
+
+My best bet is to check the `/jobs placeholders` and find the one you want to use, and use that in your chat manager, holograms, etc. 
 
