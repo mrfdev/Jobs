@@ -155,3 +155,9 @@ https://www.zrips.net/jobs/chat-titles/
 chat-display
 Display method of the title. Accepted values are full, title, job, shortfull, shorttitle, shortjob and none
 ```
+
+### How do I give/edit a player's points?
+
+https://github.com/Zrips/Jobs/wiki/Commands
+![image](https://user-images.githubusercontent.com/28841349/149127652-853bfe09-1e9a-41cd-9155-6d71fa0bb96a.png)
+
