@@ -161,3 +161,8 @@ Display method of the title. Accepted values are full, title, job, shortfull, sh
 https://Github.com/Zrips/Jobs/wiki/Commands
 ![image](https://user-images.Githubusercontent.com/28841349/149127652-853bfe09-1e9a-41cd-9155-6d71fa0bb96a.png)
 
+### How do I open /jobs to go to /jobs browse?
+
+> Hi, is there any way to be able to open the jobs menu using /jobs and not /jobs browse
+
+Not by default, another plugin might be required to alias the /jobs main command, making sure that it goes to /jobs browse, or /jobs help. It would be nice ot have a toggle. 
