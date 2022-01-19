@@ -7,22 +7,22 @@ Before you start making changes I will assume you have backed up your server.
 Keeping your server engine and plugins current can help resolve a lot of potential issues. Does it work with .. questions, I have no idea besides "probably", because this is the setup that I use and works for me:
 
 ```
-,-- Zrips CMI 9.0.2.8 or newer with CMI Economy enabled from SpigotMC.
+,-- Zrips CMI 9.1.0.6 or newer with CMI Economy enabled from SpigotMC.
 |   '- https://www.spigotmc.org/resources/3742/
 |
-|-- Zrips CMI Library 1.0.3.6 or newer from SpigotMC
+|-- Zrips CMI Library 1.1.0.8 or newer from SpigotMC
 |   '- https://www.spigotmc.org/resources/87610/
 |
 |-- Zrips Compiled Vault 1.7.3 from zrips.net
 |   '- http://www.zrips.net/wp-content/uploads/2020/07/Vault-1.7.3.jar
 |
-|-- Zrips Jobs-Reborn 5.0.0.6 or newer from SpigotMC.
+|-- Zrips Jobs-Reborn 5.0.1.2 or newer from SpigotMC.
 |   '- https://www.spigotmc.org/resources/4216/
 | 
-|-- LuckPerms 5.3.61 or newer from SpigotMC.
+|-- LuckPerms 5.3.98 or newer from SpigotMC.
 |   '- https://www.spigotmc.org/resources/28140/
 |
-|-- Spigot 1.17.1 (or Paper 1.17.1) or newer.
+|-- Spigot 1.18.1 (or Paper 1.18.1) or newer.
 |   |- https://hub.spigotmc.org/jenkins/job/BuildTools/
 |   '- https://papermc.io/downloads
 ```
