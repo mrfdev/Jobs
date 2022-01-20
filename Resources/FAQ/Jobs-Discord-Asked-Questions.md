@@ -166,3 +166,13 @@ https://Github.com/Zrips/Jobs/wiki/Commands
 > Hi, is there any way to be able to open the jobs menu using /jobs and not /jobs browse
 
 Not by default, another plugin might be required to alias the /jobs main command, making sure that it goes to /jobs browse, or /jobs help. It would be nice ot have a toggle. 
+
+### org.sqlite.SQLiteException: \[SQLITE_BUSY\]  The database file is locked (database is locked)
+
+SQLite is just a library that reads and writes to a file on the file system, not a full SQL database. Sqlite3 databases can be busy or locked when in use by an existing long query, another query that's hanging, or when another plugin is already using it (it is a bad practice to use multiple connections when connecting to SQLite). You can try restarting the server, or /stop it, copy the original .db file to a new one. Backup your .db file, and delete the original ~ then rename the copy to the original name and start the server again. 
+
+Reading threads might not be closing. Or maybe the Jobs plugin doesn't properly close after insert/update queries. You could consider trying to move to the MySQL database type.
+
+More info about [sqlite3/locking](http://www.sqlite.org/draft/matrix/lockingv3.html)
+
+
