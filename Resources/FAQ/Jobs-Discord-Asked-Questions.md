@@ -124,19 +124,36 @@ More Economy info <https://ptb.discord.com/channels/452792793631555594/526402919
 
 ### Helping Translate Jobs
 
-<https://ptb.discord.com/channels/452792793631555594/526402919826849804/611253737033302031>
+Crowdin page to suggest translations to ignore the unknown FNF messages when a string not found in your current language file. If you suggest, this translation will come to my GitHub repo and I will accept and merge it if we release it a new version.
+
+Can be found on: <https://crowdin.com/project/jobsreborn>
+
+- You can find translations in the ~plugins/jobs/ directory in their respected directory.
+
+- Global phrases can also be found in the locale files under ~plugins/CMILib/translations
 
 ---
 
 ### Jobs Points Explained 
 
-<https://ptb.discord.com/channels/452792793631555594/526402919826849804/803721132984631296>
+Where is Job points is used for?
+
+It is used for jobs shop to buy custom boosted items or anything else, or even can be made in other plugins with Jobs API like in gui shop.
+
+It much useful than boring money
+Also, if you have multiple servers that have same mysql database and with jobs, you can synchronize points between servers and use it for anything.
+
+If you prefer to not use this, just disable points payment in generalConfig. 
 
 ---
 
 ### Jobs/ files Explained
 
-<https://ptb.discord.com/channels/452792793631555594/526402919826849804/809103176421736469>
+We recently made a change that changes `jobConfig` to separate job files to make job creation as easy as possible. This way, you don't have to worry about upgrading from an older version to the current one, as the old jobConfig file will be moved to the `FileBackups` directory and the jobs in it will be moved to separate files. If you still need the old jobConfig file, the server owner can use something of it for the future, but if you don't have to, feel free to remove it along with the FileBackups directory. 
+
+So all your created jobs are transferred to separate files for simplicity. Many people have asked the question, “how do I create custom jobs?” Is very simple. Just create a file with the selected name and put ".yml" at the end of the name so that the plugin can read or copy an existing job and write its name to the selected name. 
+
+Then, only the internal contents of the file need to be modified. Many even asked the question "what happened to the content in the old file?", Which remained in the jobConfig file, they were moved to those job files without data loss. So there is nothing to worry about, nothing is lost after the file movement.
 
 ---
 
@@ -172,7 +189,22 @@ More Economy info <https://ptb.discord.com/channels/452792793631555594/526402919
 
 ### Jobs GUI adjustment
 
-<https://ptb.discord.com/channels/452792793631555594/526402919826849804/841708722367102997>
+For anyone having issues with Stone in ./jobs browse or where ever
+
+Change
+```yaml
+  Gui:
+    Id: %id%
+    Data: 0
+```
+To
+```yaml
+  Gui:
+    Item: %item%
+```
+And swap out `%item%` with the item you want it to be
+
+Each Job has their own File so you have to go through and change it per file 
 
 ---
 
