@@ -140,7 +140,26 @@ Yeah, that's possible, so, go back to step 1 and double check. Gather up the inf
 
 Share with the discord chat channel the info you've gathered, either in a pastebin link or by properly pasting it. This includes the outputs of all those ver things, the config file, the expected behavior, any startup error msgs, or misisng info that you expected to find, or what happens or doesn't happen in game and any console errors if any that happen. The more complete your info, the easier it can be for others to figure out what's up. 
 
-# Finally
+# Finally - a little debugging
 
-One of the Jobs developers also has a pinned message on Discord, it might be worth reading as well: https://ptb.discord.com/channels/452792793631555594/526402919826849804/688267075818750053
+Below is a post by montlikadani from Discord
 
+The income (pay for doing jobs) not working?
+
+- Make sure that you have Vault and Essentials (or CMI) resource.
+
+- If you have CMI, you should enable the Vault economy integration in cmi configuration and installing the CMI version of Vault if necessary.
+
+- Make sure you have added the `jobs.use` and `jobs.world.worldName` permission to your group/parent to get income. (`worldName` is your world where the jobs should pay). If you use LuckPerms as a permission provider, you can use `/lp group yourGroup permission set jobs.use` command to grant these permissions to your group.
+
+- Try to disable some income-limitations in generalConfig in order to get income continuously without limitations.
+
+- If the `Economy.PaymentMethods.Money` option is enabled, you can get money from jobs if its configured per jobs file.
+
+- There are chances when player can't get income suddenly, because there are delay before the income is arriving to the player bank. You can change it with `economy-batch-delay`
+
+- Make sure that the `world-blacklist` list does not contain the world name where the income not working or where are you standing currently.
+
+- Some users do not receive payment when they do so. This generally points to a somewhat "other thread" problem, as Jobs uses the asynchronous thread by default, so you can transfer the payment to the bank without any lag. You can turn this off if it causes a problem (not always) in generalConfig with `economy-async`.
+
+- If you have managed to enable/use these tasks and its still not works, you can look at options which starts with `enable-pay` name and enable them. There are other options which probably useful, just read the comment above. 
