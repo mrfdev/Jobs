@@ -15,5 +15,4 @@ The source code to Jobs-Reborn can be found here: <https://github.com/Zrips/Jobs
 
 ## Version 
 
-Github Jobs version 0.0.3, January 25th, 2022.
-
+Github Jobs version 0.0.4, February 11th, 2022.
