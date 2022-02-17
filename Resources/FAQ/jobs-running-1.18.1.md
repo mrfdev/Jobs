@@ -2,26 +2,26 @@
 
 Zrips Discord @ https://discord.gg/dDMamN4
 
-This page should help explain what I personally think is the way to run Jobs Reborn version 5.x on Spigot-, and Paper 1.17.1 and below.
+This page should help explain what I personally think is the way to run Jobs Reborn version 5.x on Spigot-, and Paper 1.18.1 and below.
 
 ```
 ------------------------------------------
-Jobs: 5.0.1.0 SqLite
+Jobs: 5.0.1.4 SqLite
 CMILib: 1.1.0.8
-Server: Paper(148) 1.18.1-R0.1-SNAPSHOT
+Server: Paper(198) 1.18.1-R0.1-SNAPSHOT
 Economy: CMIEconomy Vault: 1.7.3-b
 ------------------------------------------
 ```
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Note ahead.
 
-- This is about Jobs 5 and Spigot or Paper server version 1.18.1 mainly, apply to 1.17.1 and other lower versions accordingly.
+- This is about Jobs 5 and Spigot or Paper server version 1.18.1 mainly, apply the logic to 1.17.1 and other lower versions accordingly.
 - More info about differences between Jobs jar files: <https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-jar-files.md>
 
-- CMI version 9.1.x is recommended as an Economy engine, but other older economy engines like EssentialsX-economy as well. 
+- CMI version 9.1.x is _recommended_ as an Economy engine, but other older economy engines like EssentialsX-economy as well. 
 - More info about Jobs + Economy: <https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-economy.md>
 
-- CMI Lib version 1.1.0.8 or newer is required.
+- **CMI Lib version 1.1.0.8 or newer is required.**
 - Zrips' libraries and other resources are linked below.
 
 ### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Backup
