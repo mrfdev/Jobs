@@ -8,9 +8,11 @@ This document is based on my experience using Jobs Quests, if you have any furth
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> The Quests Feature
 
-The Jobs plugin allows players to get rewarded for completing quests. While they're doing the job it seems they automatically join and participate in these quests sometimes. 
+The Jobs plugin allows players to get rewarded for completing randomly selected daily quests. The daily quest switches at 4:00 every morning. You can set the time in the main config file.
 
-Quests are on a per job basis, daily, and are automatically joined, and restarted. 
+The player automatically joins one quest for each of his jobs every real life day. The amount of quests a player can do per day can be increased per job in the job-specific config file.
+
+The player can choose to skip a quest and receive a replacing quest. By default they can skip once per day, but you can increase this in the main config too. You can add a cost to skipping a quest.
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Players: How to join, etc.
 
@@ -18,11 +20,13 @@ A quest is automatically joined as the player is doing the job they're in.
 
 It will let the player know in the chat via a highlighted message that they've completed a job and what they've received for it.
 
-There are no toggles, commands, etc. that a player can use at this point. 
+The player can check their daily quests and follow their progression in them with the `/jobs quests` command. Get more details by mouse-overing the information displayed in chat.
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Setting up a Quest for a job
 
-You can check the Jobs' [examplejob.yml](https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-examplejob.yml) file to see how it looks like (it also has some additional information)
+Each job only contains one example quest, but you can add as many as you'd like. At the very least the quest has a name, an objective, reward commands and reward description, and a chance that determines how often the particular quest gets selected randomly. You can also set level restrictions for your quest.
+
+Check the Jobs' [examplejob.yml](https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-examplejob.yml) file to see how to set up a quest. It also has detailed information on the features mentioned above.
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Commands
 
