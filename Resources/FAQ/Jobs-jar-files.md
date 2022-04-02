@@ -75,12 +75,12 @@ cd Jobs
 mvn clean install -Dmaven.test.skip=true
 
 # Once completed, it should say something like this:
-[INFO] Installing /Projects/Github/Clones/JobsReborn/Jobs/target/Jobs4.17.1.jar to /Users/whatever/.m2/repository/Jobs/jobs/4.17.1/jobs-4.17.1.jar
+[INFO] Installing /dev/githubprojects/clone/JobsReborn/Jobs/D:/MC/Server 1.18/plugins/Jobs5.0.2.1.jar to /Users/whatever/.m2/repository/Jobs/jobs/5.0.2.1/jobs-5.0.2.1.jar
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 
 # Note that THIS is the compiled JAR file you want to use on your server as a plugin:
-# /Users/whatever/.m2/repository/Jobs/jobs/5.0.0.3/jobs-5.0.0.3.jar
+# /Users/whatever/.m2/repository/Jobs/jobs/5.0.2.1/jobs-5.0.2.1.jar
 # You can now copy that target file to your minecraft server plugins/ directory.
 ```
 
