@@ -13,13 +13,13 @@ Keeping your server engine and plugins current can help resolve a lot of potenti
 |-- Zrips Compiled Vault 1.7.3 from zrips.net
 |    '- http://www.zrips.net/wp-content/uploads/2020/07/Vault-1.7.3.jar
 |
-|-- Zrips Jobs-Reborn 5.0.0.9 from SpigotMC.
+|-- Zrips Jobs-Reborn 5.0.2.1 from SpigotMC.
 |    '- https://www.spigotmc.org/resources/4216/
 | 
-|-- LuckPerms 5.3.75 from SpigotMC.
+|-- LuckPerms 5.4.15 from SpigotMC.
 |    '- https://www.spigotmc.org/resources/28140/
 |
-`-- Spigot 1.17.1 (and Paper 1.17.1 on some other servers).
+`-- Spigot 1.18.2 (and Paper 1.18.1 on some other servers).
      |- https://hub.spigotmc.org/jenkins/job/BuildTools/
      '- https://papermc.io/downloads
 ```
