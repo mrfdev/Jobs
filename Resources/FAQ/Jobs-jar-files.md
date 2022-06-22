@@ -13,13 +13,13 @@ Keeping your server engine and plugins current can help resolve a lot of potenti
 |-- Zrips Compiled Vault 1.7.3 from zrips.net
 |    '- http://www.zrips.net/wp-content/uploads/2020/07/Vault-1.7.3.jar
 |
-|-- Zrips Jobs-Reborn 5.0.0.9 from SpigotMC.
+|-- Zrips Jobs-Reborn 5.0.2.1 from SpigotMC.
 |    '- https://www.spigotmc.org/resources/4216/
 | 
-|-- LuckPerms 5.3.75 from SpigotMC.
+|-- LuckPerms 5.4.15 from SpigotMC.
 |    '- https://www.spigotmc.org/resources/28140/
 |
-`-- Spigot 1.17.1 (and Paper 1.17.1 on some other servers).
+`-- Spigot 1.18.2 (and Paper 1.18.1 on some other servers).
      |- https://hub.spigotmc.org/jenkins/job/BuildTools/
      '- https://papermc.io/downloads
 ```
@@ -75,12 +75,12 @@ cd Jobs
 mvn clean install -Dmaven.test.skip=true
 
 # Once completed, it should say something like this:
-[INFO] Installing /Projects/Github/Clones/JobsReborn/Jobs/target/Jobs4.17.1.jar to /Users/whatever/.m2/repository/Jobs/jobs/4.17.1/jobs-4.17.1.jar
+[INFO] Installing /dev/githubprojects/clone/JobsReborn/Jobs/D:/MC/Server 1.18/plugins/Jobs5.0.2.1.jar to /Users/whatever/.m2/repository/Jobs/jobs/5.0.2.1/jobs-5.0.2.1.jar
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 
 # Note that THIS is the compiled JAR file you want to use on your server as a plugin:
-# /Users/whatever/.m2/repository/Jobs/jobs/5.0.0.3/jobs-5.0.0.3.jar
+# /Users/whatever/.m2/repository/Jobs/jobs/5.0.2.1/jobs-5.0.2.1.jar
 # You can now copy that target file to your minecraft server plugins/ directory.
 ```
 
