@@ -22,8 +22,8 @@ Woodcutter:
       - Break;birch_log;50
       - Break;jungle_log;50
       RewardCommands:
-      - cmi money give [playerName] 1000 -s
-      - 'cmi actionbarmsg [playerName] {#4d0049}&lCompleted quest!{#680099}&r {#orange}Reward: $1000'
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
       RewardDesc:
       - Break logs and get money
       - Get 100 for this!

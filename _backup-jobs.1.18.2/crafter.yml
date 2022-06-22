@@ -22,8 +22,8 @@ Crafter:
       - Craft;chest;10
       - Craft;ladder;30
       RewardCommands:
-      - cmi money give [playerName] 1000 -s
-      - 'cmi actionbarmsg [playerName] {#4d0049}&lCompleted quest!{#680099}&r {#orange}Reward: $1000'
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
       RewardDesc:
       - Craft and get money
       - Get 100 for this!

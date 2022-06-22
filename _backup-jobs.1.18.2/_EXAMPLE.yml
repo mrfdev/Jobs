@@ -203,29 +203,29 @@ exampleJob:
   # Payment for collecting things like sweet berry bush, composter or honey
   Collect:
     sweet_berries-2:
-      income: 1.0
-      points: 1.0
-      experience: 1.0
+      income: 0.2
+      points: 0.2
+      experience: 0.2
     sweet_berries-3:
-      income: 1.0
-      points: 1.0
-      experience: 1.0
+      income: 0.5
+      points: 0.5
+      experience: 0.5
     composter:
       income: 1.0
       points: 1.0
       experience: 1.0
     honeycomb:
-      income: 1.0
-      points: 1.0
-      experience: 1.0
+      income: 2.5
+      points: 2.5
+      experience: 2.5
     honey_bottle:
       income: 1.0
       points: 1.0
       experience: 1.0
     glow_berries:
-      income: 1.0
-      points: 1.0
-      experience: 1.0
+      income: 0.5
+      points: 0.5
+      experience: 0.5
   # Payment for cooking raw foods in camp fire
   Bake:
     beef:

@@ -22,8 +22,8 @@ Digger:
       - Break;grass_block;50
       - Break;gravel;50
       RewardCommands:
-      - cmi money give [playerName] 1000 -s
-      - 'cmi actionbarmsg [playerName] {#4d0049}&lCompleted quest!{#680099}&r {#orange}Reward: $1000'
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
       RewardDesc:
       - Dig blocks and get money
       - Get 100 for this!

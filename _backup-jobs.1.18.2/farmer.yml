@@ -22,8 +22,8 @@ Farmer:
       - Shear;White;10
       - Milk;Cow;3
       RewardCommands:
-      - cmi money give [playerName] 1000 -s
-      - 'cmi actionbarmsg [playerName] {#4d0049}&lCompleted quest!{#680099}&r {#orange}Reward: $1000'
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
       RewardDesc:
       - Be a farmer and get money
       - Get 100 for this!
@@ -190,7 +190,11 @@ Farmer:
       income: 1.0
       points: 1.0
       experience: 1.0
-    pumpkin-7:
+    pumpkin:
+      income: 0.5
+      points: 0.5
+      experience: 1.0
+    melon:
       income: 0.5
       points: 0.5
       experience: 1.0
