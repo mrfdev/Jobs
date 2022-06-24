@@ -357,4 +357,18 @@ Maybe, it depends on what This Thing is. The first thing you want to do is [chec
 
 The example file is your friend. [Always check it first.](https://github.com/Zrips/Jobs/blob/master/src/main/resources/jobs/_EXAMPLE.yml)
 
+---
+
+## How to change the color of the bossbar?
+
+In the job's file (miner.yml for example) is where you can set this:
+```yaml
+  # [OPTIONAL] The colour of the boss bar: GREEN, BLUE, RED, WHITE, YELLOW, PINK, PURPLE.
+  BossBarColour: WHITE
+```
+
+
+
+
+
 **Contribute to this list? Make a pull request, append to the document, and I will review and probably merge it**
