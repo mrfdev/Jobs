@@ -3,3 +3,4 @@
 
 the /`jobs placeholders` command from in-game or in console will display a full list.
 
+<https://github.com/Zrips/Jobs/wiki/Placeholders>
