@@ -6,22 +6,22 @@ This page should help explain what I personally think is the way to run Jobs Reb
 
 ```
 ------------------------------------------
-Jobs: 5.0.2.1 SqLite
-CMILib: 1.1.2.1
-Server: Paper(250) 1.18.2-R0.1-SNAPSHOT
+Jobs: 5.1.0.0 SqLite
+CMILib: 1.2.0.3
+Server: Paper(36) 1.19-R0.1-SNAPSHOT
 Economy: CMIEconomy Vault: 1.7.3-b
 ------------------------------------------
 ```
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Note ahead.
 
-- This is about Jobs 5 and Spigot or Paper server version 1.18.2 mainly, apply the logic to 1.17.1 and other lower versions accordingly.
+- This is about Jobs 5 and Spigot or Paper server version 1.19 mainly, apply the logic to 1.18.2 and other lower versions accordingly.
 - More info about differences between Jobs jar files: <https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-jar-files.md>
 
-- CMI version 9.1.x is _recommended_ as an Economy engine, but other older economy engines like EssentialsX-economy as well. 
+- CMI version 9.2.x is _recommended_ as an Economy engine, but other older economy engines like EssentialsX-economy as well. 
 - More info about Jobs + Economy: <https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-economy.md>
 
-- **CMI Lib version  1.1.2.1 or newer is required.**
+- **CMI Lib version  1.2.0.3 or newer is required.**
 - Zrips' libraries and other resources are linked below.
 
 ### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Backup
@@ -95,7 +95,7 @@ What a list huh, okay, now you have experience, you have tested, and you can do 
 
 #### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> What about 1.16.5?
 
-Personally I feel this is now outdated, and replaced by 1.18.2 or newer, please upgrade first, but yes, Jobs 5 works on 1.17.1 as well. And other lower versions.
+Personally I feel this is now outdated, and replaced by 1.19 or newer, please upgrade first, but yes, Jobs 5 works on 1.18.2 as well. And other lower versions.
 
 #### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Resources
 
@@ -114,10 +114,10 @@ SpigotMC's Buildtools.jar can be found here <https://hub.spigotmc.org/jenkins/jo
 <https://www.spigotmc.org/resources/cmilib.87610/>
 More info about CMILib <https://github.com/mrfdev/CMI/blob/master/Resources/FAQ/cmi-library.md>
 
-`Spigot website` This is where you can get buildtools and make a spigot 1.18.2 jar
+`Spigot website` This is where you can get buildtools and make a spigot 1.19 jar
 <https://hub.spigotmc.org/jenkins/job/BuildTools/>
 
-`Paper website` This is where you can get Paper's 1.18.2 jar
+`Paper website` This is where you can get Paper's 1.19 jar
 <https://papermc.io/downloads>
 
 More information about Jobs: https://www.zrips.net/jobs/, here you can find info about permissions, chat titles, signs and other jobs features. 
