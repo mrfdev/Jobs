@@ -25,4 +25,5 @@ Do not forget to go through `generalConfig.yml` to set up the economy side of th
 
 ## More information
 
-https://www.zrips.net/jobs/permissions/
+<https://www.zrips.net/jobs/permissions/>
+<https://github.com/Zrips/Jobs/wiki/Permissions>
