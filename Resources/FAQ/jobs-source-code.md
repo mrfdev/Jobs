@@ -1,5 +1,8 @@
+# FAQ - Can I get the source code and customize it?
 
-## Can I get the source code and customize it?
+<topMenu>
+
+---
 
 Jobs-Reborn is open source, and you can view the source code on [Github] (<https://Github.com/Zrips/Jobs>)
 

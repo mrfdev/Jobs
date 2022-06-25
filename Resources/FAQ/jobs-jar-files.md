@@ -1,4 +1,8 @@
-### Jobs-Reborn and the different JAR files explained
+# FAQ - Jobs-Reborn and the different JAR files explained
+
+<topMenu>
+
+---
 
 ## Please note this.
 
@@ -7,19 +11,19 @@ Before you start making changes I will assume you have backed up your server.
 Keeping your server engine and plugins current can help resolve a lot of potential issues. Does it work with .. questions, I have no idea besides "probably", because this is the setup that I use and works for me:
 
 ```
-,-- Zrips CMI 9.x with CMI Economy enabled from SpigotMC.
+,-- Zrips CMI 9.2.x.x with CMI Economy enabled from SpigotMC.
 |    '- https://www.spigotmc.org/resources/3742/
 |
 |-- Zrips Compiled Vault 1.7.3 from zrips.net
 |    '- http://www.zrips.net/wp-content/uploads/2020/07/Vault-1.7.3.jar
 |
-|-- Zrips Jobs-Reborn 5.0.2.1 from SpigotMC.
+|-- Zrips Jobs-Reborn 5.1.x.x from SpigotMC.
 |    '- https://www.spigotmc.org/resources/4216/
 | 
-|-- LuckPerms 5.4.15 from SpigotMC.
+|-- LuckPerms 5.4.30 from SpigotMC.
 |    '- https://www.spigotmc.org/resources/28140/
 |
-`-- Spigot 1.18.2 (and Paper 1.18.1 on some other servers).
+`-- Spigot 1.19 (and Paper 1.19 on some other servers).
      |- https://hub.spigotmc.org/jenkins/job/BuildTools/
      '- https://papermc.io/downloads
 ```

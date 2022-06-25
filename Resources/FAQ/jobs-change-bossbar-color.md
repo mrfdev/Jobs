@@ -1,5 +1,8 @@
+# FAQ - How to change the color of the bossbar?
 
-## How to change the color of the bossbar?
+<topMenu>
+
+---
 
 In the job's file (miner.yml for example) is where you can set this:
 ```yaml

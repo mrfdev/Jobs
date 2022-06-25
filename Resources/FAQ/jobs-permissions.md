@@ -1,4 +1,6 @@
-# FAQ
+# FAQ - Jobs Permissions information
+
+<topMenu>
 
 ---
 

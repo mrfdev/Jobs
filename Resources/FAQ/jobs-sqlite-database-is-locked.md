@@ -1,3 +1,8 @@
+# FAQ - The database file is locked
+
+<topMenu>
+
+---
 
 ## org.sqlite.SQLiteException: \[SQLITE_BUSY\] The database file is locked (database is locked)
 

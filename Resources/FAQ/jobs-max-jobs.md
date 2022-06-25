@@ -1,5 +1,8 @@
+# FAQ - How can I have players join only X amount of jobs?
 
-## How can I have players join only X amount of jobs?
+<topMenu>
+
+---
 
 In `generalConfig.yml` you can set a global value for the maximum amount of jobs a player can join.
 

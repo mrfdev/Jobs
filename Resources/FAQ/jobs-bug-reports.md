@@ -1,3 +1,8 @@
+# FAQ - Bug reporting
+
+<topMenu>
+
+---
 
 ## I have a bug. Fix it
 

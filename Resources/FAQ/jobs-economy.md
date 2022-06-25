@@ -1,3 +1,9 @@
+# FAQ - Jobs Economy information
+
+<topMenu>
+
+---
+
 ### Jobs-Reborn and Economy (Giving your players /money for doing jobs)
 
 ## Please note this.

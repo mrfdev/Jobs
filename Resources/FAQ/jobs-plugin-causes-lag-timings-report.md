@@ -1,6 +1,8 @@
+# FAQ - Jobs is lagging my server, shows in timings report
 
+<topMenu>
 
-## Jobs is lagging my server, shows in timings report
+---
 
 That's not how the timings work. Jobs showing up as a lagging can mean many things. Another plugin can hang the main thread, forcing a queue to build up or other tasks to wait before completing.
 

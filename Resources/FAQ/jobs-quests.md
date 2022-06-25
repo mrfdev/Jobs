@@ -1,5 +1,9 @@
 # FAQ - Jobs Quests
 
+<topMenu>
+
+---
+
 Zrips Discord @ https://discord.gg/dDMamN4
 
 This document is based on my experience using Jobs Quests, if you have any further information or seen an error feel free to open a new issue, PR, or poke me on Discord with a DM. 

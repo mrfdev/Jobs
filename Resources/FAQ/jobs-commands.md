@@ -1,5 +1,8 @@
+# FAQ - Jobs Commands
 
-## Jobs Commands
+<topMenu>
+
+---
 
 <https://github.com/Zrips/Jobs/wiki/Commands>
 

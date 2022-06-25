@@ -1,5 +1,8 @@
+# FAQ - Helping Translate Jobs
 
-## Helping Translate Jobs
+<topMenu>
+
+---
 
 If some piece of text is wrong or doesn't exist for your current language file, suggest new text to replace it.
 

@@ -1,7 +1,10 @@
+# FAQ - Jobs Points Explained
 
-## Jobs Points Explained
+<topMenu>
 
-How can I use the points I earn from jobs?
+---
+
+**How can I use the points I earn from jobs?**
 
 You can use them in the Jobs Shop to buy custom boosted items or anything else the owner of your server cares to set up.
 

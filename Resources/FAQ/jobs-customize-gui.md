@@ -1,3 +1,8 @@
+# FAQ - Customizing the GUI
+
+<topMenu>
+
+---
 
 ## Jobs GUI adjustment
 

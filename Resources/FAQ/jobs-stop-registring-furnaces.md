@@ -1,5 +1,8 @@
+# FAQ - How do I stop registering furnaces?
 
-## How do I stop registering furnaces?
+<topMenu>
+
+---
 
 Short answer: I do not know. Maybe you can set the permission to 0
 

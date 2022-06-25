@@ -1,7 +1,10 @@
+# FAQ - Where can I find a list of all Jobs Reborn placeholders?
 
-## Where can I find a list of all Jobs Reborn placeholders?
+<topMenu>
 
-the /`jobs placeholders` command from in-game or in console will display a full list.
+---
+
+The /`jobs placeholders` command from in-game or in console will display a full list.
 
 <https://github.com/Zrips/Jobs/wiki/Placeholders>
 

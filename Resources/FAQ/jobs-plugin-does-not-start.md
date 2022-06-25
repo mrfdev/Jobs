@@ -1,5 +1,8 @@
+# FAQ - The plugin doesn't start
 
-## The plugin doesn't start
+<topMenu>
+
+---
 
 That sucks, but we require more info to help.
 

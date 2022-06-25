@@ -1,3 +1,8 @@
+# FAQ - Adjusting the /jobs command
+
+<topMenu>
+
+---
 
 ## How do I open `/jobs` to go to `/jobs browse`?
 

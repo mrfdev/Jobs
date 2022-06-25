@@ -1,8 +1,12 @@
-# FAQ - Running Jobs Reborn on Spigot / Paper 1.18.2
+# FAQ - Running Jobs Reborn on Spigot / Paper 1.19
+
+<topMenu>
+
+---
 
 Zrips Discord @ https://discord.gg/dDMamN4
 
-This page should help explain what I personally think is the way to run Jobs Reborn version 5.x on Spigot-, and Paper 1.18.2 and below.
+This page should help explain what I personally think is the way to run Jobs Reborn version 5.1.x.x on Spigot-, and Paper 1.19 and below.
 
 ```
 ------------------------------------------
