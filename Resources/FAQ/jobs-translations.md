@@ -72,7 +72,24 @@
 
 If some piece of text is wrong or doesn't exist for your current language file, suggest new text to replace it.
 
-We will then accept and merge the change, and it will make its way to a possible next release version.
+## How to contribute to the open source project with your own translations.
 
-- You can find translations in the `~plugins/jobs/` directory in their respected directory.
-- Some phrases that multiple Zrips plugins use are in the locale files under `~plugins/CMILib/translations`
+If a language is missing and you've made it, you can contribute it. The best way is to clone the github repo of Jobs, and make a PR (pull request) with your contributions. 
+
+Zrips will review the PR at some point, and accept and merge the changes, and it will make its way to a possible next release version.
+
+## Where to find available translations?
+
+- You can find translations in the `~plugins/jobs/locale/` directory.
+- Some phrases that multiple Zrips plugins use are in the locale files under `~plugins/CMILib/Translations`
+- Currently Jobs 5.1.0.0 is still using the `~plugins/jobs/TranslatableWords/` directory, this might change to `~plugins/CMILib/Translations/items/` in the future (i have no eta on this).
+
+## How to stay current on your languages?
+
+You can stop the server and make a full backup, or at least of the jobs files. 
+
+Then remove the locale/ directory and start the server again. 
+
+It will then re-generate those files, and you have the latest. 
+
+Optionally you can diff the files and re-apply some of your customizations. 
