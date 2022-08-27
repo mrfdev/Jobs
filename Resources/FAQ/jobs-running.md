@@ -61,7 +61,7 @@
          <pre>https://www.spigotmc.org/resources/4216/<br>Get the CMI plugin if you haven't already, and then Install it on all your servers</pre></li>
         <li><a href="https://www.spigotmc.org/resources/87610/">Also Download CMILib</a> (free library) (<a href="https://github.com/mrfdev/Jobs/tree/main/Resources/FAQ/jobs-cmilib.md">more info</a>)
          <pre>https://www.spigotmc.org/resources/87610/<br>All Zrips plugins require the CMILib .jar file. Get it and also put it on all your servers.</pre></li>
-        <li>All my FAQ pages have been written for Spigot / Paper 1.19 and Jobs-Reborn 5.1.0.x or newer.</li>
+        <li>All my FAQ pages have been written for Spigot / Paper 1.19.2 and Jobs-Reborn 5.1.0.x or newer.</li>
         <li>The mrfdev github page is not an official resource, we're building up our knowledge base as a courtesy.</li>
         <li>I am an admin on the Zrips Discord, this does not mean what I share on here is official.</li>
     </ul>
@@ -76,22 +76,22 @@ This page should help explain what I personally think is the way to run Jobs Reb
 
 ```
 ------------------------------------------
-Jobs: 5.1.0.0 SqLite
-CMILib: 1.2.0.3
-Server: Paper(36) 1.19-R0.1-SNAPSHOT
+Jobs: 5.1.0.1 SqLite
+CMILib: 1.2.3.3
+Server: Paper(133) 1.19.2
 Economy: CMIEconomy Vault: 1.7.3-b
 ------------------------------------------
 ```
 
 ## <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Note ahead.
 
-- This is about Jobs 5 and Spigot or Paper server version 1.19 mainly, apply the logic to 1.18.2 and other lower versions accordingly.
+- This is about Jobs 5.1.x and Spigot or Paper server version 1.19.2 mainly, apply the logic to 1.18.2 and other lower versions accordingly.
 - More info about differences between Jobs jar files: <https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-jar-files.md>
 
-- CMI version 9.2.x is _recommended_ as an Economy engine, but other older economy engines like EssentialsX-economy as well. 
+- CMI version 9.2.3.x is _recommended_ as an Economy engine, but other older economy engines like EssentialsX-economy as well. 
 - More info about Jobs + Economy: <https://github.com/mrfdev/Jobs/blob/main/Resources/FAQ/Jobs-economy.md>
 
-- **CMI Lib version  1.2.0.3 or newer is required.**
+- **CMI Lib version  1.2.3.3 or newer is required.**
 - Zrips' libraries and other resources are linked below.
 
 ### <g-emoji class="g-emoji" alias="information_source" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png">ℹ️</g-emoji> Backup
