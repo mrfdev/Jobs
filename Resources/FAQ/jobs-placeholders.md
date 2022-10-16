@@ -70,9 +70,11 @@
 
 ---
 
-The /`jobs placeholders` command from in-game or in console will display a full list.
+# DEPRECATED PAGE;
 
-<https://github.com/Zrips/Jobs/wiki/Placeholders>
+Per fall season 2022, this page has been moved to <https://www.zrips.net/jobs/placeholders/>, before the Winter of 2022 the content of this github page will be purged. 
+
+The /`jobs placeholders` command from in-game or in console will display a full list.
 
 ```
 > jobs placeholders
@@ -135,4 +137,5 @@ The /`jobs placeholders` command from in-game or in console will display a full 
  57. %jobsr_questdesc_[jname/number]_[questIndicator]%
  58. %jobsr_bonus_[jname/number]%
 >
-````source: Jobs 5.1.0.0`
+```
+`source: Jobs 5.1.0.1`
