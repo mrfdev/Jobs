@@ -79,7 +79,7 @@ Before you start making changes I will assume you have backed up your server.
 Keeping your server engine and plugins current can help resolve a lot of potential issues. Does it work with .. questions, I have no idea besides "probably", because this is the setup that I use and works for me:
 
 ```
-,-- Zrips CMI 9.2.5.x or newer with CMI Economy enabled from SpigotMC.
+,-- Zrips CMI 9.3.x.x or newer with CMI Economy enabled from SpigotMC.
 |   '- https://www.spigotmc.org/resources/3742/
 |
 |-- Zrips CMI Library 1.2.3.7 or newer from SpigotMC
@@ -94,7 +94,7 @@ Keeping your server engine and plugins current can help resolve a lot of potenti
 |-- LuckPerms 5.4.41 or newer from SpigotMC.
 |   '- https://www.spigotmc.org/resources/28140/
 |
-`-- Spigot 1.19.2 (or Paper 1.19.2) or newer.
+`-- Spigot 1.19.3 (or Paper 1.19.3) or newer.
     |- https://hub.spigotmc.org/jenkins/job/BuildTools/
     '- https://papermc.io/downloads
 ```
