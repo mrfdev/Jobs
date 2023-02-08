@@ -79,19 +79,19 @@ Before you start making changes I will assume you have backed up your server.
 Keeping your server engine and plugins current can help resolve a lot of potential issues. Does it work with .. questions, I have no idea besides "probably", because this is the setup that I use and works for me:
 
 ```
-,-- Zrips CMI 9.3.x.x or newer with CMI Economy enabled from SpigotMC.
+,-- Zrips CMI 9.3.1.3 or newer with CMI Economy enabled from SpigotMC.
 |   '- https://www.spigotmc.org/resources/3742/
 |
-|-- Zrips CMI Library 1.2.3.7 or newer from SpigotMC
+|-- Zrips CMI Library 1.2.4.5 or newer from SpigotMC
 |   '- https://www.spigotmc.org/resources/87610/
 |
 |-- Zrips Compiled Vault 1.7.3 from zrips.net
 |   '- http://www.zrips.net/wp-content/uploads/2020/07/Vault-1.7.3.jar
 |
-|-- Zrips Jobs-Reborn 5.1.0.1 or newer from SpigotMC.
+|-- Zrips Jobs-Reborn 5.1.2.0 or newer from SpigotMC.
 |   '- https://www.spigotmc.org/resources/4216/
 | 
-|-- LuckPerms 5.4.41 or newer from SpigotMC.
+|-- LuckPerms 5.4.60 or newer from SpigotMC.
 |   '- https://www.spigotmc.org/resources/28140/
 |
 `-- Spigot 1.19.3 (or Paper 1.19.3) or newer.
