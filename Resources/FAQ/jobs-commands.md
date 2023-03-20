@@ -77,8 +77,6 @@
 ---
 
 ```
-> jobs help
- ------- ======= Jobs ======= -------
 /Jobs archive [playername] - Shows all jobs saved in archive by user.
 /Jobs area add/remove/info/list - Modify restricted areas.
 /Jobs blockinfo  - Shows information for the block you are looking at.
@@ -91,6 +89,7 @@
 /Jobs edititembonus list/add/remove [jobname] [itemBoostName] - Edit item boost bonus
 /Jobs editjobs  - Edit current jobs.
 /Jobs editpoints set/add/take [playername] [amount] - Edit player's points.
+/Jobs editquests  - Edit current quests.
 /Jobs employ [playername] [jobname] - Employ the player to the job.
 /Jobs entitylist  - Shows all possible entities that can be used with the plugin.
 /Jobs exp [playername] [jobname] set/add/take [amount] - Change the player exp for job.
@@ -134,5 +133,5 @@
 /Jobs top [jobname]/clear pageNumber - Shows top players by jobs name.
 /Jobs transfer [playername] [oldjob] [newjob] - Transfer a player's job from an old job to a new job.
 /Jobs version  - Plugin version information
->
-````source: Jobs 5.1.0.0`
+```
+Source: /jobs help, version 5.1.2.2 for Minecraft 1.19.4
