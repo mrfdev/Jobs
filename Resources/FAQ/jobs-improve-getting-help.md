@@ -76,12 +76,12 @@ To get the best help possible, we need information, then Zrips on Github or the 
 - We always advise people to stay current and make frequent backups!
 - Provide the information if you can (console commands):
 
-**# Server engine:** `ver`
-**# Plugin details:** `jobs version`
-**# CMI-Library:** `ver CMILib`
-**# Vault version:** `ver Vault`
-**# Economy manager:** `ver CMI`
-**# Permission Manager:** `ver LuckPerms`
+**# Server engine:** `ver`<br>
+**# Plugin details:** `jobs version`<br>
+**# CMI-Library:** `ver CMILib`<br>
+**# Vault version:** `ver Vault`<br>
+**# Economy manager:** `ver CMI`<br>
+**# Permission Manager:** `ver LuckPerms`<br>
 
 - Keep an eye on the console or check the logs to make sure you spot any errors during the startup of any plugins. If you see a related error, instead of pasting a wall of text into a chat, try using a text host service, like [This Hastebin instance from md-5](https://paste.md-5.net/)
 
