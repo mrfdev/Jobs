@@ -93,3 +93,42 @@ And swap out `%item%` with the item you want it to be
 
 Each job has its own file, so you have to go through them and change it in each one
 
+The generalConfig.yml file for example has these gui settings:
+```yaml
+JobsGUI:
+  # Do you want to show GUI when performing /jobs browse command?
+  OpenOnBrowse: true
+  # Do you want to show chat information when performing /jobs browse command?
+  ShowChatBrowse: true
+  # With true left mouse button will join job and right will show more info.
+  # With false left mouse button will show more info, right will join job or inversely.
+  # Don't forget to adjust locale file!
+  SwitcheButtons: false
+  # Allows players to join a specified job via GUI.
+  DisableJoiningJobThroughGui: false
+  # Do you want to show the action names in GUI?
+  ShowActionNames: true
+  # Do we hide all item attributes in GUI?
+  HideItemAttributes: true
+  # Defines size in rows of GUI
+  Rows: 5
+  # Defines back button slot in GUI
+  BackButtonSlot: 37
+  # Defines next button slot in GUI
+  NextButtonSlot: 45
+  # Defines start position in gui from which job icons will be shown
+  StartPosition: 11
+  # Defines by how many jobs we need to group up
+  GroupAmount: 7
+  # Defines by how many slots we need to skip after group
+  SkipAmount: 2
+  InfoButton:
+    # Slot for info button. Set it to 0 if you want to disable it
+    # Locale can be customized in locale file under gui->infoLore section
+    Slot: 9
+    Material: head:eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcwNWZkOTRhMGM0MzE5MjdmYjRlNjM5YjBmY2ZiNDk3MTdlNDEyMjg1YTAyYjQzOWUwMTEyZGEyMmIyZTJlYyJ9fX0=
+    # closeinv! can be used to close players inventory when you click this icon
+    Commands:
+    - closeinv!
+```
+
