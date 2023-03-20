@@ -77,4 +77,5 @@ The check permissions page. And make sure the setting is disabled in generalConf
 ```yaml
 # Option to allow payment to be made in creative mode. This ignoring when a group has 'jobs.paycreative' permission.
 enable-pay-creative: false
-````generalConfig.yml`
+```
+`generalConfig.yml`
