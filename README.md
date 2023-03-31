@@ -10,9 +10,9 @@ You will find some resources here, maybe I will share some custom jobs, custom c
 
 Yeah, sorry, this is just my little Github corner on the Internet. No jar files here. 
 You can download a jar here; <https://www.spigotmc.org/resources/jobs-reborn.4216/>
-Discord might have a temoporary newer Dev-build one: <https://discord.gg/dDMamN4>
+Discord might have a temporary newer Dev-build one: <https://discord.gg/dDMamN4>
 The source code to Jobs-Reborn can be found here: <https://github.com/Zrips/Jobs>
 
 ## Version 
 
-Github Jobs version 0.1.2, March 26th, 2023.
+Github Jobs version 0.1.3, March 31st, 2023.
