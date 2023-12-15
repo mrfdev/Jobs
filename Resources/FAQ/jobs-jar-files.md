@@ -141,6 +141,9 @@ git clone https://github.com/Zrips/Jobs.git
 # Go into the directory with the pom.xml file
 cd Jobs
 
+# Note: You might need to install Maven
+# Note: on macOS, install brew, and then brew install Maven
+
 # Party time, this can take a while
 mvn clean install -Dmaven.test.skip=true
 
