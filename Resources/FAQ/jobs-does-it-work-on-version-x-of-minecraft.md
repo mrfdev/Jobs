@@ -1,4 +1,4 @@
-# FAQ - Does it work on 1.19.x?
+# FAQ - Does it work on 1.20.x?
 
 <topMenu>
 <details>
@@ -61,7 +61,7 @@
          <pre>https://www.spigotmc.org/resources/4216/<br>Get the CMI plugin if you haven't already, and then Install it on all your servers</pre></li>
         <li><a href="https://www.spigotmc.org/resources/87610/">Also Download CMILib</a> (free library) (<a href="https://github.com/mrfdev/Jobs/tree/main/Resources/FAQ/jobs-cmilib.md">more info</a>)
          <pre>https://www.spigotmc.org/resources/87610/<br>All Zrips plugins require the CMILib .jar file. Get it and also put it on all your servers.</pre></li>
-        <li>All my FAQ pages have been written for Spigot / Paper 1.19.x and Jobs-Reborn 5.1.1.2 or newer.</li>
+        <li>All my FAQ pages have been written for Spigot / Paper 1.20.x and Jobs-Reborn 5.2.2.1 or newer.</li>
         <li>The mrfdev github page is not an official resource, we're building up our knowledge base as a courtesy.</li>
         <li>I am an admin on the Zrips Discord, this does not mean what I share on here is official.</li>
     </ul>
@@ -70,5 +70,5 @@
 
 ---
 
-Yes, Jobs 5.1.2.2 or newer, with CMILib 1.2.5.2 or newer, will work with Minecraft 1.19.4 (made for Spigot and Paper) and any lower version.
+Yes, Jobs 5.2.2.1 or newer, with CMILib 1.4.4.2 or newer, will work with Minecraft 1.20.4 (made for Spigot and Paper) and any lower version.
 
