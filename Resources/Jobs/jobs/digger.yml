@@ -58,3 +58,31 @@ Digger:
       income: 1
       points: 1
       experience: 1.0
+    SNOW_BLOCK:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    SNOW:
+      income: 0.2
+      points: 0.2
+      experience: 0.2
+    POWDER_SNOW:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    ROOTED_DIRT:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    MUD:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    SUSPICIOUS_GRAVEL:
+      income: 1
+      points: 1
+      experience: 1
+    SUSPICIOUS_SAND:
+      income: 1
+      points: 1
+      experience: 1

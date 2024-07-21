@@ -215,3 +215,15 @@ Woodcutter:
       income: 0.5
       points: 0.5
       experience: 0.5
+    BAMBOO_MOSAIC:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    BAMBOO_PLANKS:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    BAMBOO_BLOCK:
+      income: 0.5
+      points: 0.5
+      experience: 0.5

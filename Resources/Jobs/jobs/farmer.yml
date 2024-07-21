@@ -161,14 +161,30 @@ Farmer:
       income: 4.0
       points: 4.0
       experience: 5.0
-    Nether Sprouts:
-      income: 0
-      points: 0
-      experience: 0
-    Grass Block:
-      income: 0
-      points: 0
-      experience: 0
+    NETHER_SPROUTS:
+      income: 1
+      points: 1
+      experience: 1
+    TWISTING_VINES:
+      income: 1
+      points: 1
+      experience: 1
+    WEEPING_VINES:
+      income: 1
+      points: 1
+      experience: 1
+    SMALL_DRIPLEAF:
+      income: 1
+      points: 1
+      experience: 1
+    GLOW_LICEHN:
+      income: 1
+      points: 1
+      experience: 1
+    HANGING_ROOTS:
+      income: 1
+      points: 1
+      experience: 1          
   Milk:
     Cow:
       income: 5.0
@@ -183,10 +199,26 @@ Farmer:
       income: 0.5
       points: 0.5
       experience: 1.0
+    MOSS_CARPET:
+      income: 0.2
+      points: 0.2
+      experience: 0.5 
     SCULK:
       income: 0.5
       points: 0.5
       experience: 1.0
+    SCULK_CATALYST:
+      income: 0.5
+      points: 0.5
+      experience: 1.0
+    SCULK_SHRIEKER:
+      income: 0.5
+      points: 0.5
+      experience: 1.0
+    SCULK_VEIN:
+      income: 0.25
+      points: 0.25
+      experience: 0.5
     bamboo:
       income: 1.5
       points: 1.5
@@ -291,6 +323,14 @@ Farmer:
       income: 2
       points: 2
       experience: 2.0
+    AZALEA:
+      income: 2
+      points: 2
+      experience: 2.0
+    FLOWERING_AZALEA:
+      income: 2
+      points: 2
+      experience: 2.0
     brown_mushroom:
       income: 1
       points: 1
@@ -313,20 +353,48 @@ Farmer:
       experience: 1.0
     CRIMSON_FUNGUS:
       income: 0.5
-      points: 0
-      experience: 0
+      points: 0.5
+      experience: 0.5
     WARPED_FUNGUS:
       income: 0.5
-      points: 0
-      experience: 0
+      points: 0.5
+      experience: 0.5
     CRIMSON_ROOTS:
       income: 0.5
-      points: 0
-      experience: 0
+      points: 0.5
+      experience: 0.5
     WARPED_ROOTS:
       income: 0.5
-      points: 0
-      experience: 0
+      points: 0.5
+      experience: 0.5
+    BIG_DRIPLEAF:
+      income: 1
+      points: 1
+      experience: 1.0
+    MANGROVE_PROPAGULE:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    MANGROVE_ROOTS:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    MUDDY_MANGROVE_ROOTS:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    PINK_PETALS:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    PITCHER_PLANT:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    TORCHFLOWER:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
   Place:
     wheat:
       income: 1
@@ -360,11 +428,19 @@ Farmer:
       income: 1
       points: 1
       experience: 1
+    TORCHFLOWER_CROP:
+      income: 1
+      points: 1
+      experience: 1   
+    PITCHER_PLANT:
+      income: 1
+      points: 1
+      experience: 1   
   Collect:
-    sweet_berries-2:
-      income: 0.2
-      points: 0.2
-      experience: 0.2
+    sweet-berries-2:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
     sweet_berries-3:
       income: 0.5
       points: 0.5

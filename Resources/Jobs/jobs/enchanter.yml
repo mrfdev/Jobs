@@ -122,6 +122,38 @@ Enchanter:
       income: 6.0
       points: 6.0
       experience: 30.0
+    Netherite_helmet:
+      income: 8.0
+      points: 8.0
+      experience: 50
+    Netherite_chestplate:
+      income: 15
+      points: 15
+      experience: 65
+    Netherite_leggings:
+      income: 15
+      points: 15
+      experience: 65
+    Netherite_boots:
+      income: 8.0
+      points: 8.0
+      experience: 50
+    NETHERITE_SWORD:
+      income: 15
+      points: 15
+      experience: 50
+    NETHERITE_AXE:
+      income: 15
+      points: 15
+      experience: 50
+    NETHERITE_SHOVEL:
+      income: 15
+      points: 15
+      experience: 50
+    NETHERITE_PICKAXE:
+      income: 15
+      points: 15
+      experience: 50
     Efficiency-1:
       income: 1
       experience: 1

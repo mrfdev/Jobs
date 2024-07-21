@@ -478,6 +478,38 @@ Crafter:
       income: 7.0
       points: 7.0
       experience: 7.0
+    CALIBRATED_SCULK_SENSOR:
+      income: 5.0
+      points: 5.0
+      experience: 5.0
+    CHISELED_BOOKSHELF:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    CHISELED_COPPER:
+      income: 1.5
+      points: 1.5
+      experience: 1
+    COPPER_BULB:
+      income: 1.5
+      points: 1.5
+      experience: 1
+    COPPER_GRATE:
+      income: 1.5
+      points: 1.5
+      experience: 1
+    Crafter:
+      income: 1.5
+      points: 1.5
+      experience: 1
+    NETHERITE_INGOT:
+      income: 5.0
+      points: 5.0
+      experience: 5
+    WIND_CHARGE:
+      income: 3.0
+      points: 3.0
+      experience: 3     
   Smelt:
     cooked_chicken:
       income: 3.0
