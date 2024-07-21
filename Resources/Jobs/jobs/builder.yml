@@ -158,6 +158,10 @@ Builder:
       income: 1.5
       points: 1.5
       experience: 2
+    CHISELED_BOOKSHELF:
+      income: 1.5
+      points: 1.5
+      experience: 2
     mossy_cobblestone:
       income: 1.5
       points: 1.5
@@ -410,6 +414,14 @@ Builder:
       income: 1.5
       points: 1.5
       experience: 2
+    BAMBOO_TRAPDOOR:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    COPPER_TRAPDOOR:
+      income: 1.5
+      points: 1.5
+      experience: 2
     stone_bricks:
       income: 1.5
       points: 1.5
@@ -658,6 +670,22 @@ Builder:
       income: 1.5
       points: 1.5
       experience: 2
+    AZALEA_LEAVES:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    FLOWERING_AZALEA_LEAVES:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    MANGROVE_LEAVES:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    CHERRY_LEAVES:
+      income: 1.5
+      points: 1.5
+      experience: 2      
     prismarine:
       income: 1.3
       points: 1.3
@@ -738,14 +766,6 @@ Builder:
       income: 0.5
       points: 0.5
       experience: 1
-    BAMBOO_DOOR:
-      income: 0.5
-      points: 0.5
-      experience: 1
-    BAMBOO_TRAPDOOR:
-      income: 0.5
-      points: 0.5
-      experience: 1
     BAMBOO_PRESSURE_PLATE:
       income: 0.5
       points: 0.5
@@ -754,3 +774,159 @@ Builder:
       income: 0.5
       points: 0.5
       experience: 1
+    POLISHED_DEEPSLATE:
+      income: 1
+      points: 1
+      experience: 1
+    POLISHED_DEEPSLATE_STAIRS:
+      income: 1
+      points: 1
+      experience: 1
+    POLISHED_DEEPSLATE_SLAB:
+      income: 1
+      points: 1
+      experience: 1
+    POLISHED_DEEPSLATE_WALL:
+      income: 1
+      points: 1
+      experience: 1
+    ITEM_FRAME:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    GLOW_ITEM_FRAME:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    netherrack:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    COBBLED_DEEPSLATE:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    DEEPSLATE_BRICKS:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    CRACKED_DEEPSLATE_BRICKS:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    DEEPSLATE_TILES:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    CRACKED_DEEPSLATE_TILES:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    CHISELED_DEEPSLATE:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    REINFORCED_DEEPSLATE:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    COBBLED_DEEPSLATE_WALL:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    DEEPSLATE_BRICK_WALL:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    DEEPSLATE_TILE_WALL:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    COBBLED_DEEPSLATE_STAIRS:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    DEEPSLATE_BRICK_STAIRS:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    DEEPSLATE_TILE_STAIRS:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    COBBLED_DEEPSLATE_SLAB:
+      income: 0.8
+      points: 0.8
+      experience: 2
+    DEEPSLATE_BRICK_SLAB:
+      income: 0.8
+      points: 0.8
+      experience: 2
+    DEEPSLATE_TILE_SLAB:
+      income: 0.8
+      points: 0.8
+      experience: 2
+    CHISELED_COPPER:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    TUFF_STAIRS:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    TUFF_SLAB:
+      income: 0.8
+      points: 0.8
+      experience: 2
+    TUFF_WALL:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    CHISELED_TUFF:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    POLISHED_TUFF:
+      income: 1
+      points: 1
+      experience: 1
+    POLISHED_TUFF_STAIRS:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    POLISHED_TUFF_SLAB:
+      income: 0.8
+      points: 0.8
+      experience: 2
+    POLISHED_TUFF_WALL:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    TUFF_BRICKS:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    TUFF_BRICK_STAIRS:
+      income: 1.5
+      points: 1.5
+      experience: 2.0
+    TUFF_BRICK_SLAB:
+      income: 0.8
+      points: 0.8
+      experience: 2
+    TUFF_BRICK_WALL:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    CHISELED_TUFF_BRICKS:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    HEAVY_CORE:
+      income: 1.5
+      points: 1.5
+      experience: 2
+    COPPER_BULB:
+      income: 1.5
+      points: 1.5
+      experience: 2

@@ -484,6 +484,20 @@ exampleJob:
       income: 5.0
       points: 1.0
       experience: 3.0
+  # Brushing blocks and getting items from them
+  Brush:
+    suspicious_sand:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    suspicious_gravel:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
+    coal:
+      income: 1.0
+      points: 1.0
+      experience: 1.0
   # Explore options. Each number represents players number in exploring that chunk
   # 1 means that player is first in this chunk, 2 is second and so on
   # so you can give money not only for first player who discovers that chunk

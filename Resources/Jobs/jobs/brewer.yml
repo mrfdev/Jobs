@@ -98,3 +98,19 @@ Brewer:
       income: 12.0
       points: 12.0
       experience: 12.0
+    stone:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    slime_block:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    cobweb:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
+    breeze_rod:
+      income: 7.0
+      points: 7.0
+      experience: 7.0
