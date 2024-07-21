@@ -44,9 +44,9 @@ Miner:
       points: 1
       experience: 1
     deepslate:
-      income: 1
-      points: 1
-      experience: 1
+      income: 1.25
+      points: 1.25
+      experience: 1.25
     basalt:
       income: 1
       points: 1
@@ -128,9 +128,9 @@ Miner:
       points: 10
       experience: 10
     deepslate_diamond_ore:
-      income: 10
-      points: 10
-      experience: 10
+      income: 12.5
+      points: 12.5
+      experience: 12.5
     emerald_ore:
       income: 15
       points: 15
@@ -568,10 +568,6 @@ Miner:
       points: 0.5
       experience: 0.5
     MUD_BRICK_STAIRS:
-      income: 0.5
-      points: 0.5
-      experience: 0.5
-    MUD_BRICK_WALL:
       income: 0.5
       points: 0.5
       experience: 0.5

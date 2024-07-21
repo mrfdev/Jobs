@@ -361,6 +361,10 @@ Farmer:
       points: 1
       experience: 1
   Collect:
+    sweet_berries-2:
+      income: 0.2
+      points: 0.2
+      experience: 0.2
     sweet_berries-3:
       income: 0.5
       points: 0.5
